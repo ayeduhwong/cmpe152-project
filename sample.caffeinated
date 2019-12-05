@@ -1,0 +1,21 @@
+customer sample;			// program sample
+
+toppings:
+	i : boba; 				// int
+	quantity : ice; 		// bool
+	
+ORDER // indicates main   
+
+	i = 1;
+    i = i * 12;
+    i = i + 10;
+    quantity = 1;
+    
+    milk(i <= 25)
+    START 
+    	i = i + 25;
+    COMPLETE;    
+	
+    quantity = 0
+
+PICKUP // end main
